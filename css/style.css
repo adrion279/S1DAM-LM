@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+   
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333333;
 }
@@ -9,7 +9,14 @@ body {
     box-sizing: border-box;
     
 }
-
+.container50{
+    width: 50%;
+    margin-left: 25%;
+}
+.container80{
+    width: 90%;
+    margin-left: 3%;
+}
 /* For desktop: */
 .container {
     width: 90%;
@@ -220,7 +227,7 @@ header {
 main {
     position: relative;
     background-color: #525355;
-    text-align: center;
+    
     color: aliceblue;
 }
 
@@ -228,13 +235,6 @@ footer {
     background-color: #333333;
     
     color: aliceblue;
-}
-
-#fondomain{
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity:0.2;
 }
 .position-relative{
     position: relative;
@@ -284,4 +284,11 @@ footer h1{
     #namefooter{
         display: none;
     }
+}
+#homemain{
+    text-align: center;
+}
+.tcgreen{
+    color: #08D85A;
+    font-size: larger;
 }
