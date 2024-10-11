@@ -1,10 +1,10 @@
-e<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso HTML5-CSS3</title>
+    <title>Enlaces en HTML5</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -60,19 +60,33 @@ e<!DOCTYPE html>
 
     </header>
     <main>
-
-
-        <div class="p-2">
-            <h1 class="text-center py-3">HTML5 & CSS3</h1>
+        <div id="parrafos" class="container80 p-3">
+            <h2 class="text-center">Enlaces</h2>
+            <p>Los enlaces se insertan con la eiqueta <b class="tcgreen">a</b> y el enlace al que nos dirijiremos se
+                insertara en el atributo <b class="tcgreen">href</b>.</p>
+            <br>
+            <h3>Enlace a la pagina inicial</h3>
+            <a href="index.html">Ir a Home</a>
+            <br>
+            <h3>Enlace a la pagina de Internet</h3>
+            <a href="https://www.twitch.tv/">Ir a Twitch</a>
+            <br>
+            <h3>Enlace en una imagen</h3>
+            <a href="https://www.youtube.com"><img src="img/youtube.png" width="100px" alt="Imagen Youtube"
+                    class="py-3"></a>
+            <br>Enlace en una Pestaña Nueva</h3>
+            <br>
+            <p><a href="http://www.ies-azarquiel.es/" target="_blank">Pagina Web IES Azarquiel</a> <span class="pl-3">
+                    Para abrir un enlace en una nueva pestaña utilizamos el atributo <b class="tcgreen">target</b> y el
+                    valor <b class="tcgreen">_blank</b> </span> </p>
+            
+            <h3>Enlace para ejecutar un programa de javascript</h3>
+            <a href="javascript:alert('Hola mundo')">Ejecutar alert</a>
+            <h3>Enlace de descarga del plano de toledo</h3>
+                <a href="pdf/mapatoledo.pdf" target="_blank">Mapa de Toledo</a>
+            <h3>Enlace de marcador: Sirve para posicionarse en un lugar concreto de la web.</h3>
+                    <a href="#top"><img src="img/flechaar.png" width="50px" alt=""></a>
         </div>
-        <div class="container50 align-items-center"><hr></div>
-        <div class="p-2">
-            <div id="home" class="">
-                <h2 class="text-center">Curso HTML5 & CSS3 Gratuito</h2>
-                <img src="img/imagenmain.png" alt="" width="50%">
-            </div>
-        </div>
-
     </main>
     <footer class="position-relative">
         <div class="row align-items-center justify-content-between">
@@ -83,12 +97,12 @@ e<!DOCTYPE html>
             <div id="namefooter" class="col-7">
                 <h1 class="text-center text-white py-3">&copy; Adrián Sánchez</h1>
             </div>
-           
+
             <div id="codefooter" class="col-2">
                 <a href="https://code.visualstudio.com/" target="_blank"><img src="img/code_70x70.png"
                         alt="Enlace Linkedin" width=""></a>
             </div>
-            
+
             <div class="cb"></div>
         </div>
     </footer>
